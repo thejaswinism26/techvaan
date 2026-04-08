@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/techvan2/static/css/main.5753d20b.css",
+    "main.js": "/techvan2/static/js/main.d00940b8.js",
+    "static/js/453.d59996ad.chunk.js": "/techvan2/static/js/453.d59996ad.chunk.js",
+    "static/media/Unbounded.ttf": "/techvan2/static/media/Unbounded.08cee2f1788be13aecf8.ttf",
+    "static/media/Altex.otf": "/techvan2/static/media/Altex.6d1f004b9e934ec769dc.otf",
+    "static/media/bg.jpg": "/techvan2/static/media/bg.83b7e21ae3509c5f11b6.jpg",
+    "static/media/Lamrata.otf": "/techvan2/static/media/Lamrata.c224c5893afe0b36cd2c.otf",
+    "static/media/Manti.ttf": "/techvan2/static/media/Manti.878cf84d4682b2d24c85.ttf",
+    "static/media/DrunkWide.ttf": "/techvan2/static/media/DrunkWide.470baf58b4f118a3fa06.ttf",
+    "index.html": "/techvan2/index.html",
+    "main.5753d20b.css.map": "/techvan2/static/css/main.5753d20b.css.map",
+    "main.d00940b8.js.map": "/techvan2/static/js/main.d00940b8.js.map",
+    "453.d59996ad.chunk.js.map": "/techvan2/static/js/453.d59996ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5753d20b.css",
+    "static/js/main.d00940b8.js"
+  ]
+}
