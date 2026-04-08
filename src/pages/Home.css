@@ -1,0 +1,35 @@
+/* ───────── HOME INTRO SECTION ───────── */
+.home-intro {
+  background: #0a192f; /* same dark blue as services */
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+/* HEADING */
+.home-intro h2 {
+  font-size: 2.8rem;
+  font-family: 'Manti', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* TEXT */
+.home-intro p {
+  font-size: 1.1rem;
+  color: #ccd6f6;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+  font-family: 'Arial', sans-serif;
+}
+
+/* OPTIONAL: subtle glow effect to match modern UI */
+.home-intro h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(45deg, var(--blue), var(--deep-blue));
+  margin: 15px auto 0;
+  border-radius: 2px;
+}

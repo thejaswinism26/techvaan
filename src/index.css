@@ -1,13 +1,47 @@
+/* ───── FONT IMPORT ───── */
+@font-face {
+  font-family: 'DrunkWide';
+  src: url('./assets/fonts/DrunkWide.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lamrata';
+  src: url('./assets/fonts/Lamrata.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Unbounded';
+  src: url('./assets/fonts/Unbounded.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Manti';
+  src: url('./assets/fonts/Manti.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Altex';
+  src: url('./assets/fonts/Altex.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ───── GLOBAL RESET ───── */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+  /* 👇 CHANGE THIS LINE */
+  font-family: 'DrunkWide', sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* optional */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: monospace;
 }

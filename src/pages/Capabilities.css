@@ -1,0 +1,115 @@
+/* ───────── CAPABILITIES SECTION ───────── */
+.capabilities {
+  background: #ffffff;
+  padding: 100px 20px;
+  color: white;
+}
+
+/* Header */
+.capabilities-header {
+  text-align: center;;
+  margin-bottom: 60px;
+}
+
+.capabilities-header h1 {
+  font-family: 'Manti', sans-serif;
+  font-size: 4rem;
+
+  color: #112240;
+  margin-bottom: 10px;
+}
+
+.capabilities-header p {
+  font-family: 'Arial', sans-serif;
+  color: #112240;
+  font-size: 1.1rem;
+}
+
+/* ───────── GRID CONTAINER ───────── */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ───────── CARD ───────── */
+.card {
+  width: 100%;
+  background: #112240;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Image */
+.card-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Content */
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-content h3 {
+  font-family: 'Manti', sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.card-content p {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.95rem;
+  color: #bbb;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+/* Button */
+.card-content button {
+  margin-top: 15px;
+  border: none;
+  padding: 10px 18px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(45deg, var(--blue), var(--deep-blue));
+  transition: 0.3s;
+}
+
+.card-content button:hover {
+  transform: scale(1.05);
+}
+
+/* ───────── RESPONSIVE ───────── */
+@media (max-width: 1100px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .capabilities-header h1 {
+    font-size: 2.2rem;
+  }
+}

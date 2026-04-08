@@ -1,0 +1,104 @@
+/* ───────── INDUSTRIES SECTION ───────── */
+.industries {
+  background: #ffffff;
+  padding: 100px 20px;
+  color: #111;
+}
+
+/* Header */
+.industries-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.industries-header h1 {
+    color: #112240;
+font-family: 'Manti', sans-serif;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.industries-header p {
+    font-family: 'Arial', sans-serif;
+  color: #555;
+  font-size: 2.1rem;
+}
+
+/* ───────── GRID (3 × 2) ───────── */
+.industries-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Card */
+.industry-card {
+  position: relative;
+  height: 240px;
+  border-radius: 18px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+/* Image */
+.industry-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+/* Overlay */
+.industry-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.75), transparent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.industry-overlay h3 {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #fff;
+}
+
+.industry-overlay span {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* Hover Effects */
+.industry-card:hover {
+  transform: translateY(-6px);
+}
+
+.industry-card:hover img {
+  transform: scale(1.05);
+}
+
+.industry-card:hover .industry-overlay span {
+  transform: translateX(6px);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .industries-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .industries-grid {
+    grid-template-columns: 1fr;
+  }
+}
