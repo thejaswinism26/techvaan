@@ -19,7 +19,7 @@ export default function Contact({ successMessage }) {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();npm 
+    e.preventDefault();
     console.log(formData);
 
     setSubmitted(true);
