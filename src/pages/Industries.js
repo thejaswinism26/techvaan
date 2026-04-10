@@ -2,31 +2,32 @@ import "./Industries.css";
 
 export default function Industries() {
   const industries = [
-    {
-      title: "Oil & Gas",
-      image: "/images/oil-gas.jpg",
-    },
-    {
-      title: "Petrochemicals",
-      image: "/images/petrochemicals.jpg",
-    },
-    {
-      title: "Food & Beverage",
-      image: "/images/food.jpg",
-    },
-    {
-      title: "Power & Utilities",
-      image: "/images/power.jpg",
-    },
-    {
-      title: "Shipping",
-      image: "/images/shipping.jpg",
-    },
-    {
-      title: "Chemicals",
-      image: "/images/chemicals.jpg",
-    },
-  ];
+  {
+    title: "Oil & Gas",
+    image: process.env.PUBLIC_URL + "/images/oil-gas.jpg",
+  },
+  {
+    title: "Petrochemicals",
+    image: process.env.PUBLIC_URL + "/images/petrochemicals.jpg",
+  },
+  {
+    title: "Food & Beverage",
+    image: process.env.PUBLIC_URL + "/images/food.jpg",
+  },
+  {
+    title: "Power & Utilities",
+    image: process.env.PUBLIC_URL + "/images/power.jpg",
+  },
+  {
+    title: "Shipping",
+    image: process.env.PUBLIC_URL + "/images/shipping.jpg",
+  },
+  {
+    title: "Chemicals",
+    image: process.env.PUBLIC_URL + "/images/chemicals.jpg",
+  },
+];
+   
 
   return (
     <section className="industries">
